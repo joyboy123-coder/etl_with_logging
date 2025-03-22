@@ -9,7 +9,7 @@ def transform_data(df):
     try:
         transform_logger.info("Starting data transformation")
 
-        # Example transformation: Convert all column names to lowercase
+        # Example transformation: Convert all column names to uppercase
         transform_logger.info("Transforming column names to uppercase")
         df.columns = df.columns.str.upper()
 
