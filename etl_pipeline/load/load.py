@@ -26,7 +26,7 @@ def load_data_to_snowflake(df,table_name,snowflake_config):
             database=snowflake_config['database'],
             schema=snowflake_config['schema']
         )
-        success,nchunks,nrows, _ = write_pandas(conn,df,table_name)
+        success,nchunks,nrows, _ = write_pandas(conn,df,table_name,auto_create_table=True)
         if success:
             load_logger.info(f"Successfully loaded {nrows} rows into {table_name}")
         else:
