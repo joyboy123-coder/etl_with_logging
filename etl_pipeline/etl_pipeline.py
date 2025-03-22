@@ -3,7 +3,7 @@ import logging
 from extract.extract import extract_data
 from transform.transform import transform_data
 from load.load import load_data_to_snowflake
-from logging import setup_logging
+from logging_config import setup_logging
 
 # Set up logging for the entire ETL pipeline
 etl_logger = setup_logging()
