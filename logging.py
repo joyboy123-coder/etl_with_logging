@@ -33,3 +33,6 @@ def setup_logging():
     etl_handler = logging.FileHandler('etl_pipeline/etl_pipeline.log')
     etl_handler.setFormatter(logging.Formatter(logformat))
     etl_logger.addHandler(etl_handler)
+
+    # Return the ETL pipeline logger to be used elsewhere
+    return etl_logger
