@@ -1,1 +1,8 @@
- .
+# pandas is used for data manipulation and transformation (reading, processing data)
+pandas
+
+# snowflake-connector-python is used to interact with Snowflake and load data into Snowflake
+snowflake-connector-python
+
+# loguru is used for advanced logging, which provides better functionality than Python's built-in logging
+loguru
