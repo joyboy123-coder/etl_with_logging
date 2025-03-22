@@ -1,4 +1,4 @@
-# ETL with Logging 🛠️📊
+# Extract with Logging 🛠️📊
 
 This project implements a simple ETL (Extract, Transform, Load) process with logging for the extraction step. It reads data from a CSV file and logs the success or failure of the extraction process. 📂➡️📝
 
