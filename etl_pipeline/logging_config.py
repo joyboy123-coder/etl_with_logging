@@ -30,7 +30,7 @@ def setup_logging():
     # ETL pipeline logger
     etl_logger = logging.getLogger('etl_pipeline')
     etl_logger.setLevel(logging.DEBUG)
-    etl_handler = logging.FileHandler('etl_pipeline/etl_pipeline.log')
+    etl_handler = logging.FileHandler('etl_pipeline.log')
     etl_handler.setFormatter(logging.Formatter(logformat))
     etl_logger.addHandler(etl_handler)
 
