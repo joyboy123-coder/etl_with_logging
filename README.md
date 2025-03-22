@@ -1,7 +1,7 @@
 # 🚀 ETL Pipeline with Logging  
 
 ## 📌 Project Overview  
-This project is an **ETL (Extract, Transform, Load) pipeline** designed to process customer data and load it into **Snowflake**. The pipeline includes **logging** to track execution, handle errors, and monitor the status of the ETL process.  
+This project is an **ETL (Extract, Transform, Load) pipeline** designed to process the data and load it into **Snowflake**. The pipeline includes **logging** to track execution, handle errors, and monitor the status of the ETL process.  
 
 ## 🔄 How It Works  
 The pipeline follows three main stages:  
